@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  <header id="main-header">
+      <div class="container">
+        <h1>
+          <a href="index.html">HTML & CSS</a>
+        </h1>
+      </div>
+    </header>
+
+    <nav id="navbar">
+      <div class="container" "button-1">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="my-form">
+      <form action="process.php" method="post">
+        <div>
+          <label>Name</label>
+          <input type="text" name="Name" placeholder="Full Name" />
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Email Adress" />
+        </div>
+        <div class="message">
+            <label>Message</label>
+            <textarea name="message"></textarea>
+        </div>
+        <input type="submit" name="submit" value="Submit" />
+      </form>
+    </div>
+
+    <footer id="main-footer">Copyright &copy; HTML & CSS;</footer>
+  </body>
+</html>

@@ -1,0 +1,208 @@
+body {
+  background-color: #f4f4f4;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+/*
+** Global 
+*/
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.clr {
+  clear: both;
+}
+
+/*
+** Header 
+*/
+
+#main-header {
+  background-color: coral;
+}
+
+/*
+** Nav
+*/
+
+#navbar {
+  background-color: #3b7673;
+}
+
+#navbar ul {
+  padding: 0;
+  list-style: none;
+}
+
+#navbar li {
+  display: inline;
+}
+
+#navbar a {
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+/*
+** Showcase
+*/
+
+#showcase {
+  background-image: url(./images/showcase.jpg);
+  min-height: 300px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#showcase h1 {
+  color: #fff;
+  font-size: 50px;
+  line-height: 1.6em;
+  padding-top: 30px;
+}
+
+/*
+** Containers
+*/
+
+#main {
+  float: left;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+/*
+** Sidebar 
+*/
+
+#sidebar {
+  float: right;
+  width: 30%;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/*
+** Footer
+*/
+
+#main-footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/*
+** 
+*/
+
+@media (max-width: 850px) {
+  #main,
+  #sidebar {
+    width: 100%;
+    float: none;
+  }
+
+  #showcase {
+    background-image: url(./images/showcase.jpg);
+    min-height: 150px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  #showcase h1 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.6em;
+    padding-top: 15px;
+  }
+}
+
+/*
+** Form
+*/
+
+.my-form {
+  padding: 20px;
+  text-align: center;
+}
+
+.my-form div {
+  padding-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+  color: #000;
+}
+
+.my-form input[type="text"],
+input[type="email"],
+.my-form textarea {
+  width: 30%;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.my-form textarea {
+  height: 150px;
+}
+
+.my-form input[type="submit"] {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.my-form input::placeholder {
+  color: #333;
+  font-size: 1em;
+}
+
+/*
+** Blocks
+*/
+
+.block {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.blocks {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.blocks h3,
+.block h3 {
+  text-align: center;
+}
